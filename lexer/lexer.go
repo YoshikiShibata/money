@@ -15,8 +15,14 @@ var runeTokenMap = map[rune]token.TokenType{
 	')': token.RPAREN,
 	',': token.COMMA,
 	'+': token.PLUS,
+	'-': token.MINUS,
 	'{': token.LBRACE,
 	'}': token.RBRACE,
+	'!': token.BANG,
+	'/': token.SLASH,
+	'*': token.ASTERISK,
+	'<': token.LT,
+	'>': token.GT,
 	0:   token.EOF,
 }
 
